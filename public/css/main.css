@@ -1,0 +1,135 @@
+/* ========================================= */
+
+
+/* ESTILOS DEL CUERPO Y FONDOS DE ARENA */
+
+
+/* ========================================= */
+
+body {
+    transition: background-image 0.5s ease-in-out, background-color 0.5s ease-in-out;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    /* Fondo por defecto al cargar la página o volver a la selección */
+    background-image: url('/dist/public/img/fondo/cristal.jpg');
+}
+
+
+/* Clases para el cambio de fondo aleatorio (Asegúrate de tener estas imágenes) */
+
+.arena-1 {
+    background-image: url('/dist/public/img/fondo/Fondo.jpg');
+}
+
+.arena-2 {
+    background-image: url('/dist/public/img/fondo/kamehouse.jpg');
+}
+
+.arena-3 {
+    background-image: url('/dist/public/img/fondo/salon.jpg');
+}
+
+.arena-4 {
+    background-image: url('/dist/public/img/fondo/terraceria.jpg');
+}
+
+.arena-5 {
+    background-image: url('/dist/public/img/fondo/bym.jpg');
+}
+
+.arena-6 {
+    background-image: url('/dist/public/img/fondo/universo.jpg');
+}
+
+
+/* ========================================= */
+
+
+/* ESTILOS DEL HISTORIAL DE ESTADÍSTICAS */
+
+
+/* ========================================= */
+
+#historial_stats {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.95), rgba(40, 40, 40, 0.95));
+    border: 3px solid #00aaff;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 0 15px rgba(0, 170, 255, 0.6), 0 0 5px #000;
+    text-align: center;
+    color: #f0f0f0;
+    /* Color de texto base para legibilidad */
+}
+
+.historial-title {
+    /* Asegúrate de importar la fuente 'Bangers' si la usas */
+    font-family: 'Bangers', cursive;
+    font-size: 2rem;
+    color: #ffcc00;
+    text-shadow: 1px 1px 2px #000;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.stat-player-box {
+    padding: 8px;
+    margin: 5px 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.stat-username {
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+
+/* Colores de usuario para diferenciar las estadísticas */
+
+.stat-user1 {
+    color: #ff6600;
+    /* Naranja/Rojo para Jugador 1 */
+    text-shadow: 0 0 3px #ff3300;
+}
+
+.stat-user2 {
+    color: #00aaff;
+    /* Azul para Jugador 2 */
+    text-shadow: 0 0 3px #0056b3;
+}
+
+.stat-victorias {
+    font-weight: bold;
+    color: #5cb85c;
+    /* Verde para Victorias */
+}
+
+.stat-derrotas {
+    font-weight: bold;
+    color: #d9534f;
+    /* Rojo para Derrotas */
+}
+
+
+/* ========================================= */
+
+
+/* OTROS ESTILOS RELACIONADOS CON ALERTS (SweetAlert) */
+
+
+/* ========================================= */
+
+.attack-message {
+    color: black !important;
+    /* Asegura que el título del Swal sea negro como se indicó en el JS */
+    font-weight: bold;
+}
+
+
+/* Añade aquí el resto de tus estilos de juego (barras de vida, energía, etc.) */
